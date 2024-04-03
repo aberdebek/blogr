@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: hsl(356, 100%, 66%);
+    border-bottom-left-radius: 170px;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    padding-top: 50px;
+}
+
+.logo {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    padding-left: 200px;
+    font-size: 50px;
+}
+
+.product_company_connect {
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.product, .company, .connect {
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.login_sign_up {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+    margin-top: 60px;
+    margin-left: 595px;
+}
+
+.sign_up_link {
+    color:hsl(356, 100%, 66%);
+    background: #fff;
+    margin-left: 30px;
+    padding: 10px 35px 10px 35px;
+    border-radius: 30px;
+}
+
+.header_main {
+    margin-top: 300px;
+}
+
+.header_main_title h1 {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 62px;
+    text-align: center;
+}
+
+.header_main_dsc {
+    text-align: center;
+}
+
+.header_main_dsc span {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.header_main_btns {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 150px;
+}
+
+.header_main_btns a {
+    margin-right: 50px;
+}
+
+.header_main_btns_1 {
+    color: hsl(356, 100%, 66%);
+    background: #fff;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+}
+
+.header_main_btns_1:hover {
+    background: hsl(356, 100%, 66%);
+    color: #fff;
+    border: 1px solid white;
+    transition: 1s;
+}
+
+.header_main_btns_2 {
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px 25px 10px 25px;
+}
+
+.header_main_btns_2:hover {
+    background: #fff;
+    color: hsl(356, 100%, 66%);
+    transition: 1s;
+}
+
+.designed_for_the_future {
+    padding-left: 200px;
+    overflow-x: hidden;
+}
+
+.designed_for_the_future_title {
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 300px;
+    font-size: 34px;
+    color: rgb(40, 9, 70);
+    margin-top: 150px;
+}
+
+.designed_for_the_future_text_title {
+    margin-top: 100px;
+}
+
+.designed_for_the_future_text_title_2 {
+    margin-top: 50px;
+}
+
+.designed_for_the_future_text_title, .designed_for_the_future_text_title_2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(40, 9, 70);
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.designed_for_the_future_text_dsc, .designed_for_the_future_text_dsc_2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(40, 9, 70);
+    font-weight: 300;
+}
+
+.designed_for_the_future_text_img {
+    margin-left: 725px;
+    margin-top: -564px;
+}
+
+.art_infrastructure {
+    background: #2f3044;
+    height: 400px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.art_infrastructure_img img {
+    position: relative;
+    margin-top: -68px;
+    margin-left: 150px;
+}
+
+.art_infrastructure_text {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    margin-top: -430px;
+    margin-left: 780px;
+}
+
+.art_infrastructure_title {
+    font-size: 30px;
+}
+
+.art_infrastructure_dsc {
+    font-size: 16px;
+}
+
+.laptop {
+    margin-left: -275px;
+    margin-top: 130px;
+}
+
+.penultimate_text {
+    margin-left: 810px;
+    margin-top: -728px;
+}
+
+.penultimate_text_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 34px;
+    color: rgb(40, 9, 70);
+    margin-top: 150px;
+}
+
+.penultimate_text_dsc {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(40, 9, 70);
+    font-weight: 300;
+}
+
+.penultimate_text_title_2 {
+    margin-top: 50px;
+}
+
+
+footer {
+    background: #24242c;
+    margin-top: 300px;
+    padding-top: 100px;
+    height: 300px;
+    border-top-right-radius: 100px;
+}
+
+.footer_logo {
+    margin-left: 200px;
+    
+}
+
+.footer_product_title {
+    color: #fff;
+    font-family: 'Overpass', sans-serif;
+    margin-left: 515px;
+    margin-top: -48px;
+}
+
+.footer_product_dsc {
+    color: #bfbfc7;
+    font-family: 'Overpass', sans-serif;
+    margin-top: 36px;
+    margin-left: 515px;
+    /* margin-top: -48px; */
+}
+
+.footer_product_title_2 {
+    margin-left: 833px;
+    margin-top: -231px;
+}
+
+.footer_product_dsc_2 {
+    margin-left: 833px;
+    /* margin-top: -100px; */
+}
+
+.footer_product_title_3 {
+    margin-left: 1122px;
+    margin-top: -194px;
+}
+
+.footer_product_dsc_3 {
+    margin-left: 1122px;
+}
+
+#toTop {
+    width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:50px; /* отступ кнопки от нижнего края страницы*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family: 'Overpass', sans-serif;
+    font-size:11px;
+}
+
+.show {
+    display: block;
+}
